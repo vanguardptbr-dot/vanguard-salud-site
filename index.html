@@ -400,6 +400,13 @@ footer details p{margin-top:10px;max-width:90ch}
 .dupla .ic{width:42px;height:42px;border-radius:10px;background:var(--nevoa);display:grid;place-items:center;flex:none}
 .dupla .ic svg{width:22px;height:22px;stroke:var(--azul);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .form .linha-curso{grid-template-columns:1fr}
+.selos-licenca{background:#fff;padding:36px 0;border-bottom:1px solid var(--nevoa)}
+.selos-licenca .wrap{display:flex;align-items:center;justify-content:space-between;gap:40px}
+.selos-licenca .sl-texto{max-width:540px;margin:0;color:var(--texto);font-size:17px;line-height:1.55}
+.selos-licenca .sl-texto .eyebrow{display:block;margin-bottom:8px}
+.selos-licenca .sl-logos{display:flex;align-items:center;gap:48px;flex:none}
+.selos-licenca .sl-logos img{height:72px;width:auto}
+@media (max-width:760px){.selos-licenca{padding:32px 0}.selos-licenca .wrap{flex-direction:column;align-items:flex-start;gap:22px}.selos-licenca .sl-logos{gap:28px}.selos-licenca .sl-logos img{height:56px}}
 </style>
 </head>
 <body>
@@ -480,6 +487,17 @@ footer details p{margin-top:10px;max-width:90ch}
     <li><strong>Clínicas de diálisis asociadas</strong><small>Pasantía supervisada en clínicas de la zona</small></li>
     <li><strong>Fundada en 2016 en Lauderhill</strong><small>7100 W Commercial Blvd, Suite 101</small></li>
   </ul>
+</div>
+
+<!-- Selos da licença, os mesmos da página Licensing/Approvals do site em inglês, organizados numa faixa -->
+<div class="selos-licenca" role="region" aria-label="Licencia estatal de la escuela">
+  <div class="wrap">
+    <p class="sl-texto"><span class="eyebrow">Licencia estatal</span>Vanguard School of Professional Health tiene licencia de la Commission for Independent Education, Florida Department of Education.</p>
+    <div class="sl-logos">
+      <img src="assets/selo-cie.png" alt="Logo de la Commission for Independent Education" width="198" height="180">
+      <img src="assets/selo-fdoe.png" alt="Logo del Florida Department of Education" width="615" height="180">
+    </div>
+  </div>
 </div>
 
 <!-- promo: condiciones del grupo de fin de año -->
